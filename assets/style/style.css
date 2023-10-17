@@ -1,0 +1,94 @@
+.report {
+    height: 48vh;
+    background-color: blue;
+    background-image: linear-gradient(rgb(156, 102, 250), rgb(48, 48, 217));
+    border-radius: 0 0 50px 50px;
+}
+
+.report-details {
+    color: white;
+    opacity: 0.8;
+    display: grid;
+    justify-content: center;
+}
+
+.your-result {
+    display: grid;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.mark-icon {
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(to top, rgb(156, 102, 250), rgb(48, 48, 217), rgb(48, 48, 217));
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary {
+    /*height: 50vh;*/
+    display: grid;
+    height: fit-content;
+}
+
+.summary-elements {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.btn-radius {
+    border-radius: 20px;
+}
+
+.element-1 {
+    background-color: rgb(250, 205, 121);
+    color: rgb(127, 97, 42);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.mark-scored {
+    font-size: 4rem;
+    margin-bottom: 0;
+    height: 70px;
+    color: white;
+    opacity: 1 !important;
+}
+
+.compliment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.compliment-sub {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 550px) {
+    .screen-not-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0 5%;
+        padding: 10% 5%;
+    }
+
+    .report {
+        border-radius: 50px;
+    }
+
+}
